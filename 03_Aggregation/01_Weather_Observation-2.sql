@@ -1,0 +1,7 @@
+--- Plateform: HAckerRank
+-- Difficulty: Easy
+-- Topic: Aggregation
+
+
+select round(sum(LAT_N),2) ,round(sum(LONG_W),2)
+from Station;
