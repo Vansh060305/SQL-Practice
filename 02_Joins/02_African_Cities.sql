@@ -3,8 +3,8 @@
 -- Topic: Join
 
 
-select sum(c.population)
-from CITY as c 
+select c.name 
+from CITY as c
 join COUNTRY as s
 on c.CountryCode = s.Code
-where s.CONTINENT = "ASIA";
+where CONTINENT ="Africa";
